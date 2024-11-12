@@ -1,0 +1,92 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #ffbb00;
+    min-height: 100vh;
+  }
+  
+
+  .restaurant-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    color: #d61a1f;
+  }
+  
+  .order-section {
+    margin: 20px 0;
+  }
+  
+  .food-options label {
+    display: block;
+    margin: 8px 0;
+    font-size: 18px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #d61a1f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #a71417;
+  }
+  
+  
+  #order-status {
+    position: relative;
+  }
+  
+  .loading-message {
+    font-size: 20px;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .order-complete {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #ordered-food-image {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .order-id {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  
